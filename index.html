@@ -4,12 +4,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sós karamellás fagyi</title>
+    <link rel="stylesheet" href="style.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
 </head>
 <body>
     <header>
-        <nav class="navbar navbar-expand-sm bg-light">
+        <nav class="navbar navbar-expand-sm">
             <div class="container-fluid">
                 <ul class="navbar-nav">
                 <li class="nav-item">
@@ -26,19 +27,19 @@
         </nav>
     </header>
     <main>
-        <div class="row" id="bemutatas">
+        <div class="row m-4 p-2" id="bemutatas">
             <div class="col-sm-6">
                 <h1>Bemutatás</h1>
                 <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Facilis voluptas sint natus eum repellat cupiditate, optio labore porro nobis, libero, quod eius doloremque consectetur explicabo perspiciatis atque deserunt eveniet delectus.</p>
                 <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repellat quis totam error labore quidem quia amet pariatur rerum officia voluptates esse nisi sit laborum earum, nam aliquid exercitationem distinctio iure!</p>
             </div>
             <div class="col-sm-6">
-                <img src="./img/carte_dor_1.jpg" alt="" class="img-fluid">
+                <img src="./img/carte_dor_1.png" alt="" class="img-fluid">
             </div>
         </div>
-        <div class="row" id="tortenetek">
+        <div class="row m-4 p-2" id="tortenetek">
             <div class="col-sm-6">
-                <img src="./img/close-up.jpg" alt="" class="img-fluid">
+                <img src="./img/close-up.jpg" alt="" class="img-fluid img-thumbnail">
             </div>
             <div class="col-sm-6">
                 <h1>Történetek</h1>
@@ -46,10 +47,10 @@
                 <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repellat quis totam error labore quidem quia amet pariatur rerum officia voluptates esse nisi sit laborum earum, nam aliquid exercitationem distinctio iure!</p>
             </div>
         </div>
-        <div class="row" id="uzletek">
+        <div class="row m-4 p-2" id="uzletek">
             <div class="col-sm-6">
                 <h1>Üzletek</h1>
-                <table class="table">
+                <table class="table table-hover table-striped">
                     <thead>
                         <tr>
                             <th>Név</th>
@@ -73,21 +74,18 @@
                 </table>
             </div>
             <div class="col-sm-6">
-                <img src="./img/spar.jpg" alt="" class="img-fluid">
+                <img src="./img/spar.jpg" alt="" class="img-fluid img-thumbnail">
             </div>
         </div>
     </main>
     
     <footer>
         <div class="row">
-            <div class="col-sm-4">
-                <p>Szabó Zétény</p>
+            <div class="col-sm-6">
+                <p style="color: whitesmoke;">Szabó Zétény 12E</p>
             </div>
-            <div class="col-sm-4">
-                <p>12E</p>
-            </div>
-            <div class="col-sm-4">
-                <p>2026.09.17</p>
+            <div class="col-sm-6 text-end">
+                <p style="color: whitesmoke;">2026.09.17</p>
             </div>
         </div>
     </footer>

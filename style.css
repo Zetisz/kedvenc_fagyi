@@ -1,0 +1,20 @@
+body {
+    background-color: bisque !important;
+    max-width: 1023px;
+}
+
+h1 {
+    color:chocolate !important;
+}
+
+p {
+    color:darkgoldenrod;
+}
+
+nav, footer {
+    background-color:coral;
+}
+
+a {
+    color: beige !important;
+}
